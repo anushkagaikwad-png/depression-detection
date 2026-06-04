@@ -1,0 +1,184 @@
+{% extends "layout.html" %}
+{% block content %}
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Project Overview</h1>
+                    </div>
+
+                    <div class="row">
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Domain</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">AI-Machine Learning</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-chalkboard fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Annual) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Dataset Source</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Kaggle</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-database fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tasks Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                                Algorithm</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">CNN,NLP,Naive Bayes</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-chart-area fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                                Framework</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Flask</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-archway fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+
+                            <!-- Default Card Example -->
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <h6 class="m-0 font-weight-bold text-primary">Problem Statment</h6>
+                                </div>
+                                <div class="card-body text-justify">
+                                    The aim of this project is to develop a system for the detection of depression 
+                                    using facial expressions. Depression is a prevalent mental health disorder that affects
+                                     a significant portion of the global population. Traditional methods for diagnosing
+                                      depression rely heavily on self-reporting and subjective assessment, which can be
+                                       prone to bias and inaccuracies. By leveraging the power of facial expression analysis, 
+                                       this project seeks to create 
+                                    an objective and reliable tool for early detection and monitoring of depression.
+                                </div>
+                            </div>
+
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Introduction</h6>
+                                </div>
+                                <div class="card-body text-justify">
+                                    The primary challenge is to develop an automated system that can accurately
+                                     analyze facial expressions and determine if an individual is displaying signs of 
+                                     depression. This involves training machine learning algorithms on large datasets of facial
+                                      expressions, where depression and non-depression states are clearly labeled. The system 
+                                      should be capable of recognizing specific facial markers associated with depression, 
+                                      such as
+                                     changes in facial muscle movements, eye gaze patterns, and overall facial expressiveness.
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Proposed Solution</h6>
+
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body text-justify">
+                                    The proposed solution aims to develop a system for depression detection using 
+                                    facial expressions. By collecting a diverse dataset of facial expressions from 
+                                    depressed and non-depressed individuals, relevant features will be extracted, 
+                                    including facial landmarks, muscle movements, eye gaze patterns, and overall 
+                                    expressiveness. These features will be used to train a machine learning model, 
+                                    such as a CNN 
+                                    to classify facial expressions as indicative of depression or non-depression.
+                                </div>
+                            </div>
+
+                            <!-- Collapsable Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Accordion -->
+                                <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse"
+                                    role="button" aria-expanded="true" aria-controls="collapseCardExample">
+                                    <h6 class="m-0 font-weight-bold text-primary">Conclusion</h6>
+                                </a>
+                                <!-- Card Content - Collapse -->
+                                <div class="collapse show" id="collapseCardExample">
+                                    <div class="card-body text-justify">
+                                        In conclusion, the proposed solution for depression detection using facial 
+                                        expressions offers a promising approach to address the challenges associated with 
+                                        subjective assessment and biased reporting in diagnosing depression. By leveraging 
+                                        machine learning and computer vision techniques, the system can accurately analyze 
+                                        facial expressions, detect signs of depression, and provide timely feedback. 
+                                        This solution has the potential to enhance early intervention, remote monitoring, 
+                                        and treatment planning, 
+                                        ultimately improving access to mental health care and facilitating more accurate diagnoses
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+        {% endblock %}
+
+        </div>
+
+
+
+
+
